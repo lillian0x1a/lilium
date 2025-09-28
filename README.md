@@ -7,4 +7,10 @@ liliumは、CのパフォーマンスとRustの安全性を、Pythonのような
 
 LLVMネイティブコンパイルで生まれる「美しさとスピードの融合」を体験してください。
 
+## 言語仕様
+
 [Language Specification for this project](Spec.md)
+
+## Note
+
+御尋ねの儀は、未だ設計の途次に在り、到底実行の域に達せざるものと奉存候。
