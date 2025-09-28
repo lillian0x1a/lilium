@@ -27,7 +27,11 @@
         };
         
         # より新しいLLVMバージョンを使用（デフォルトまたは最新安定版）
+<<<<<<< HEAD
         llvm = pkgs.llvmPackages;
+=======
+        llvm = pkgs.llvmPackages_18;
+>>>>>>> 596c8cd (flake.nixとflake.lockの更新: liliumコンパイラ開発環境の設定を追加し、依存関係を整理)
       in
       {
         devShells.default = pkgs.mkShell {
