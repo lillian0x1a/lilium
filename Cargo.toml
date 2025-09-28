@@ -1,0 +1,21 @@
+[package]
+name = "lilium-compiler"
+version = "0.0.1"
+edition = "2025"
+
+[dependencies]
+# LLVMバインディング
+inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm18-1"] }
+
+# エラーハンドリング
+thiserror = "1.0"
+anyhow = "1.0"
+
+# パーサーコンビネータ
+chumsky = "0.9.0"
+
+# テスト支援
+pretty_assertions = "1.3.0"
+
+[dev-dependencies]
+criterion = "0.4"
