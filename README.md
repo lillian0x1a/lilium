@@ -6,3 +6,5 @@ liliumは、CのパフォーマンスとRustの安全性を、Pythonのような
 `?|>`演算子がエラー伝播を自動化し、`unsafe`ブロックがポインタ操作を安全に解放。
 
 LLVMネイティブコンパイルで生まれる「美しさとスピードの融合」を体験してください。
+
+[Language Specification for this project](Spec.md)
